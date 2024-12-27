@@ -6,8 +6,8 @@ const SubmitNews = () => {
     const {register,handleSubmit,watch,formState: {errors,isSubmitting},}=useForm();
     async function onSubmit(data){
         await new Promise((resolve) => setInterval(resolve,5000));
-        console.log("Form is submiting");
-        console.log(data)
+        // console.log("Form is submiting");
+        // console.log(data)
     }
     return (
         <div className='submitContanier'>
