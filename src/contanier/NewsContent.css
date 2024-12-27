@@ -1,0 +1,42 @@
+.newsContentContanier{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    position: relative;
+  }
+  #mainContanier{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: #FFFBE9;
+    padding: 2%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  #leftContanier{
+    width: 39%;
+    height: 100%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    overflow-y: auto; 
+    overflow-x: hidden;
+    scrollbar-width: none; 
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  }
+  
+  #rightContanier{
+    width: 58%;
+    height: 100%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  }

@@ -1,0 +1,90 @@
+.submitContanier{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.submitContanier h2{
+    font-size: 2.3rem;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.submitContanier p{
+    font-size: 1.4rem;
+}
+#submitNewsForm{
+    display: flex;
+    height: 80%;
+    width: 100%;
+    font-size: 1.1rem;
+}
+#formLeft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 100%;
+    flex-direction: column;
+    padding: 20px;
+}
+#formLeft input{
+    width: 80%;
+    height: 8%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+#formLeft label{
+    align-self: self-start;
+    margin-left: 9vh;
+}
+#newsCatogary{
+    align-self: self-start;
+    margin-left: 8vh;
+    height: 8%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+#newsAvatar{
+    border-radius: 10px;
+    margin-left: -20px;
+    font-size: 1rem;
+}
+#formRight{
+    display: flex;
+    align-items: start;
+    justify-content: left;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+    padding: 5vh;
+}
+#formRight label{
+    margin-bottom: 10px;
+}
+#newsContent{
+    border-radius: 20px;
+    height: 60%;
+    font-size: 1.2rem;
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.newsCheckBoxs{
+    margin-bottom: 10px;
+}
+.newsCheckBoxs input{
+    margin-right: 10px;
+}
+#formSubmit{
+    width: 80%;
+    height: 10%;
+    align-self: center;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
