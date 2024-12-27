@@ -19,9 +19,6 @@ const NewsContent= (props) => {
 
   async function fetchdata() {
       const dateForApi = getDateForUrl();
-      // Gnews api 
-      // const api= "2dce1503f7328d60eb9f7dd26eefc768";
-      // const url=`https://gnews.io/api/v4/search?q=${props.topic}&lang=te&apikey=${api}`
 
 
 
