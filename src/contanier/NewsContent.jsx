@@ -19,13 +19,16 @@ const NewsContent= (props) => {
 
   async function fetchdata() {
       const dateForApi = getDateForUrl();
+      // Gnews api 
+      const api= "2dce1503f7328d60eb9f7dd26eefc768";
+      const url=`https://gnews.io/api/v4/search?q=${props.topic}&lang=en&apikey=${api}`
 
 
 
       // news api 
       // const api = "847699a66d234eb8830556e9df1efe3d"; 
-      const api = "f3d7c1ef126641069640058be5fbcecd";
-      const url = `https://newsapi.org/v2/everything?q=${props.topic}&language=en&from=${dateForApi.getFullYear()}-${dateForApi.getMonth() + 1}-${dateForApi.getDate()}&sortBy=publishedAt&apiKey=${api}`;
+      // const api = "f3d7c1ef126641069640058be5fbcecd";
+      // const url = `https://newsapi.org/v2/everything?q=${props.topic}&language=en&from=${dateForApi.getFullYear()}-${dateForApi.getMonth() + 1}-${dateForApi.getDate()}&sortBy=publishedAt&apiKey=${api}`;
       try {
         const response = await fetch(url);
         const parsedData = await response.json();

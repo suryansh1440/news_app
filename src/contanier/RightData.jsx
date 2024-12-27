@@ -9,7 +9,7 @@ const RightData = (props) => {
           {props.data.articles[props.contentIndex].title}
         </div>
         <div id="rightImg">
-          <img src={props.data.articles[props.contentIndex].urlToImage} alt="" loading="lazy" />
+          <img src={props.data.articles[props.contentIndex].image} alt="" loading="lazy" />
         </div>
       </div>
       <div id="rightInner2">
