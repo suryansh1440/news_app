@@ -14,7 +14,7 @@ const RightData = (props) => {
       </div>
       <div id="rightInner2">
         <p>{props.data.articles[props.contentIndex].description}</p>
-        <h3>Author- {props.data.articles[props.contentIndex].author}</h3>
+        <h3>Author- {props.data.articles[props.contentIndex].source.name}</h3>
         <h5>Link to Article- <a href={props.data.articles[props.contentIndex].url} target="_blank">{props.data.articles[props.contentIndex].url}</a></h5>
       </div>
     </div>

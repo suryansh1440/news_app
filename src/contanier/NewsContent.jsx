@@ -32,8 +32,8 @@ const NewsContent= (props) => {
       try {
         const response = await fetch(url);
         const parsedData = await response.json();
-        console.log(props.topic);
-        console.log(parsedData);
+        // console.log(props.topic);
+        // console.log(parsedData);
         if(parsedData.articles.length<=2){
           props.setSearchText("No result");
           props.setTopic(lastTopic);
